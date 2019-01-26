@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0; 
+    font-family: 'Open Sans', sans-serif;
+    img:100%;
+
+}
+ul {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+  }
+  
+  li {
+    display: inline-block;
+    list-style: none;
+  }
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.links span{
+    color: red;
+}
+.nav-left{
+    margin-left: 40px;
+}
+.nav-right{
+    margin-right: 100px
+}
+.links{
+    margin-right: 100px;
+    border-left: 1px solid black;
+    padding: 0px 10px;
+    font-size: 10px
+}
+.icon{
+    margin-left: 100px;
+    border-left: 1px solid black;
+    padding: 0px 10px ;
+}
+
+.main-picture{
+    width: 33%;
+    margin: auto 0;
+
+
+}
+.big-ring{
+    width: 65%;
+    margin-left: 100px;
+}
+.info{
+    width: 50%;
+    margin-top: 70px;
+
+}
+.icon .fa{
+    font-size: 15px;
+    margin-right: 8px
+}
+.box{
+    height: 450px;
+    width: 99%;   
+    margin:25px;
+    border-style: ridge;
+    background: #fafafa;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 80px;
+    border-style: none; 
+}
+.product{
+    display: flex;
+    justify-content: ;
+
+}
+.small-ring{
+    width: 50%;
+}
+.ringset{
+    width: 80%;
+}
+
+.price p{
+    font-size: 43px
+}
+.tech p{
+    color: red;
+}
+.details{
+    width: 68%;
+}
+.bag{
+    color: white;
+    background-color: rgb(245, 18, 18);
+    padding: 14px 43px;
+    margin-right:7px;
+    box-shadow: none;
+}
+.side-bar{
+    background-color: black;
+    width: 5%;
+    margin-right: -43px;
+    color: #fafafa;
+    text-align: center;
+    margin-top: 60px;
+    height: 340px
+}
+.side-bar h6{
+    writing-mode: vertical-rl;
+    margin-bottom: 40px;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 14px
+}
+.content{
+    justify-content: space-evenly;
+    margin-bottom: 30px
+}
+.footer-bar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.left-footer{
+    margin-left: 130px;
+}
+.right-footer{
+    margin-right: 120px;
+}
+.share{
+    justify-content: space-evenly;
+    margin-right: 30px;
+    border-left: 1px solid black;
+    padding: 0px 10px 
+}
+
+.terms{
+    justify-content: space-evenly;
+    margin-left: 30px;
+    border-left: 1px solid black;
+    padding: 0px 10px 
+}
+}
